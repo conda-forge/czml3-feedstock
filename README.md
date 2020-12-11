@@ -5,11 +5,11 @@ Home: https://github.com/poliastro/czml3/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/czml3-feedstock/blob/master/LICENSE.txt)
 
 Summary: czml3 is a Python library to write CZML
 
-
+Development: https://github.com/poliastro/czml3/
 
 Current build status
 ====================

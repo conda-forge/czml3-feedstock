@@ -1,5 +1,5 @@
 {% set name = "czml3" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3a56e02ce3cc743af3fa35040ca84eaaca6e5828518d6851abe10567c942ba25
+  sha256: 1cea9f733b055e0450f8e1e10c1ede4078366400242a3b21aca447a95d248bfe
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,10 +37,10 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'czml3 is a Python library to write CZML'
+  summary: czml3 is a Python library to write CZML
 
   dev_url: https://github.com/poliastro/czml3/
 
 extra:
   recipe-maintainers:
-    - Juanlu001
+    - astrojuanlu
