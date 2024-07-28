@@ -1,5 +1,5 @@
 {% set name = "czml3" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 859309a13cad5d004b72746c82f977a0e788e0bb5750e99755a4527881bbe67f
+  sha256: afe8f6dd07f18133507dcf7fccd8fba8011c22d8a06ba085eb9efa68082be33b
 
 build:
   noarch: python
