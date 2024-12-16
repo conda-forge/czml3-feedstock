@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -36,14 +36,14 @@ test:
     - czml3.widget
 
 about:
-  home: https://github.com/poliastro/czml3/
+  home: https://github.com/Stoops-ML/czml3/
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: czml3 is a Python library to write CZML
 
-  dev_url: https://github.com/poliastro/czml3/
+  dev_url: https://github.com/Stoops-ML/czml3/
 
 extra:
   recipe-maintainers:
-    - astrojuanlu
+    - Stoops-ML
