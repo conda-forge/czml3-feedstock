@@ -3,13 +3,13 @@ About czml3-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/czml3-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/poliastro/czml3/
+Home: https://github.com/Stoops-ML/czml3/
 
 Package license: MIT
 
 Summary: czml3 is a Python library to write CZML
 
-Development: https://github.com/poliastro/czml3/
+Development: https://github.com/Stoops-ML/czml3/
 
 Current build status
 ====================
@@ -145,5 +145,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@astrojuanlu](https://github.com/astrojuanlu/)
+* [@Stoops-ML](https://github.com/Stoops-ML/)
 
