@@ -41,6 +41,7 @@ about:
   home: https://github.com/Stoops-ML/czml3/
   license: MIT
   license_family: MIT
+  license_file: LICENSE.txt
   summary: czml3 is a Python library to write CZML
 
   dev_url: https://github.com/Stoops-ML/czml3/
